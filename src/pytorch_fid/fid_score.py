@@ -50,7 +50,7 @@ except ImportError:
         return x
 
 import sys
-sys.path.append('/content/AnimeGAN-Pytorch/pytorch-fid/src')
+sys.path.append('/content/AnimeGAN-Pytorch/pytorch_fid/src')
 from pytorch_fid.inception import InceptionV3
 
 

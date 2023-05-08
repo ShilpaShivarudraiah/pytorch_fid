@@ -13,7 +13,7 @@ except ImportError:
 FID_WEIGHTS_URL = 'https://github.com/mseitzer/pytorch-fid/releases/download/fid_weights/pt_inception-2015-12-05-6726825d.pth'  # noqa: E501
 
 import sys
-sys.path.append('/content/AnimeGAN-Pytorch/pytorch-fid/src')
+sys.path.append('/content/AnimeGAN-Pytorch/pytorch_fid/src')
 
 class InceptionV3(nn.Module):
     """Pretrained InceptionV3 network returning feature maps"""
